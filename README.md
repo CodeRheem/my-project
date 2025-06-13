@@ -25,10 +25,10 @@ This is a React-based Todo application that allows users to manage a list of tas
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/CodeRheem/my-project.git
 
 # Change into the project directory
-cd todo-app
+cd my-project
 
 # Install dependencies
 npm install
