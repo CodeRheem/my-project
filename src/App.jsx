@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
-const TODOS_API = process.env.REACT_APP_API_URL;
+const TODOS_API = 'https://jsonplaceholder.typicode.com/todos';
 const ITEMS_PER_PAGE = 10;
 
 function App() {
