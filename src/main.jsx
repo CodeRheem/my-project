@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <ErrorBoundary>
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/todos/:id" element={<TodoDetails />} />
+          <Route path="/todos/:id" element={<ToDoDetails />} />
           <Route path="/error" element={<ErrorTester />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
