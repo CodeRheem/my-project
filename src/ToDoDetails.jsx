@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-function TodoDetails() {
+function ToDoDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
   const [todo, setTodo] = useState(null);
@@ -40,4 +40,4 @@ function TodoDetails() {
   );
 }
 
-export default TodoDetails;
+export default ToDoDetails;
